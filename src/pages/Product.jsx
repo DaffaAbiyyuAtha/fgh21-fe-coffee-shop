@@ -37,7 +37,7 @@ function Product() {
     products()
   }, []);
   console.log(product)
-
+ 
   return (
     <>
       <Navbar />

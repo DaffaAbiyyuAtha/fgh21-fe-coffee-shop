@@ -20,7 +20,7 @@ function SideBarProduct({ fetchProducts }) {
       const lowPrice = e.target.lowPrice.value;
       const highPrice = e.target.highPrice.value;
       const name = e.target.category.value;
-      const title = e.target.seacrh.value;
+      const title = e.target.seacrh.value; 
 
       fetchProducts(lowPrice, highPrice, name, title);
     }
